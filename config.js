@@ -9,8 +9,8 @@ const fs = require("fs");
 const { Sequelize } = require("sequelize");
 if (fs.existsSync("config.env"))
 require("dotenv").config({ path: "./config.env" });
-DATABASE_URL = process.env.DATABASE_URL ||"mongodb+srv://silentspeed161:bro120@cluster0.je5ut5m.mongodb.net/?retryWrites=true&w=majority "./lib/database.db";
-let HANDLER = "false";
+DATABASE_URL = process.env.DATABASE_URL ||"mongodb+srv://Sid:bhaiyr@cluster0.il3yus6.mongodb.net/?retryWrites=true&w=majority "./lib/database.db";
+let HANDLER = "true";
 
 
   //------------------------------------------------------------------------------------------------
